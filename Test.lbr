@@ -170,7 +170,7 @@
 <wire x1="27.94" y1="25.4" x2="27.94" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-25.4" x2="-27.94" y2="-25.4" width="0.254" layer="94"/>
 <pin name="PAD" x="-33.02" y="-17.78" length="middle" direction="pwr"/>
-<text x="-27.94" y="27.94" size="2.54" layer="95">&gt; NAME</text>
+<text x="-27.94" y="27.94" size="2.54" layer="95">&gt;NAME</text>
 <text x="-27.94" y="-30.48" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
