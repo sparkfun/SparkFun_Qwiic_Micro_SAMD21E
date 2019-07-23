@@ -20,8 +20,8 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -165,6 +165,9 @@
 </polygon>
 <circle x="18.034" y="11.1887" radius="0.571640625" width="0.2032" layer="21"/>
 <circle x="18.034" y="11.1887" radius="0.571640625" width="0.2032" layer="22"/>
+<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="29.21" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.4" y1="25.4" x2="25.4" y2="0" x3="30.48" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="3.81" y="34.29" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -27560,8 +27560,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VDDCORE" x="-33.02" y="17.78" length="middle" direction="pwr"/>
 <pin name="PA10/INT10/0:2/2:2/I2S_D13" x="33.02" y="-20.32" length="middle" rot="R180"/>
 <pin name="PA11/INT11/0:3/2:3/I2S" x="33.02" y="-17.78" length="middle" rot="R180"/>
-<pin name="PA14/INT14/2:2/XIN_D14" x="33.02" y="-15.24" length="middle" rot="R180"/>
-<pin name="PA15/INT15/2:3/XOUT_D15" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA14/INT14/2:2/XIN" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA15/INT15/2:3/XOUT" x="33.02" y="-12.7" length="middle" rot="R180"/>
 <pin name="PA16/INT0/1:0/3:0" x="33.02" y="-10.16" length="middle" rot="R180"/>
 <pin name="PA17/INT1/1:1/3:1" x="33.02" y="-7.62" length="middle" rot="R180"/>
 <pin name="PA18/INT2/1:2/3:2" x="33.02" y="-5.08" length="middle" rot="R180"/>
@@ -27609,8 +27609,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PA03/INT3/VREFA" pad="PA03"/>
 <connect gate="G$1" pin="PA10/INT10/0:2/2:2/I2S_D13" pad="PA10"/>
 <connect gate="G$1" pin="PA11/INT11/0:3/2:3/I2S" pad="PA11"/>
-<connect gate="G$1" pin="PA14/INT14/2:2/XIN_D14" pad="PA14"/>
-<connect gate="G$1" pin="PA15/INT15/2:3/XOUT_D15" pad="PA15"/>
+<connect gate="G$1" pin="PA14/INT14/2:2/XIN" pad="PA14"/>
+<connect gate="G$1" pin="PA15/INT15/2:3/XOUT" pad="PA15"/>
 <connect gate="G$1" pin="PA16/INT0/1:0/3:0" pad="PA16"/>
 <connect gate="G$1" pin="PA17/INT1/1:1/3:1" pad="PA17"/>
 <connect gate="G$1" pin="PA18/INT2/1:2/3:2" pad="PA18"/>
