@@ -26547,13 +26547,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VIN" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="VDDA">
-<description>&lt;h3&gt;VDD Analog Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VDDA" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 <symbol name="V_USB">
 <description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -26603,20 +26596,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic voltage input supply symbol.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VDDA" prefix="SUPPLY">
-<description>&lt;h3&gt;VDD Analog Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Generic analog supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VDDA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -27703,7 +27682,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM" value="QWIIC_LOGO_3MM"/>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -27819,8 +27797,8 @@ LED</text>
 <attribute name="NAME" x="29.21" y="19.812" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="29.464" y="26.162" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="134.62" y="71.12" smashed="yes">
-<attribute name="VALUE" x="134.62" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND10" gate="1" x="137.16" y="71.12" smashed="yes">
+<attribute name="VALUE" x="137.16" y="70.866" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C4" gate="G$1" x="142.24" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="139.446" y="103.505" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -27830,8 +27808,8 @@ LED</text>
 <attribute name="NAME" x="59.944" y="23.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="59.944" y="18.161" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="149.86" y="124.46" smashed="yes">
-<attribute name="VALUE" x="149.86" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY16" gate="G$1" x="137.16" y="124.46" smashed="yes">
+<attribute name="VALUE" x="137.16" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="83.82" y="50.8" smashed="yes">
 <attribute name="VALUE" x="83.82" y="53.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -27845,9 +27823,9 @@ LED</text>
 <instance part="GND5" gate="1" x="58.42" y="10.16" smashed="yes">
 <attribute name="VALUE" x="58.42" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="134.62" y="111.76" smashed="yes">
-<attribute name="NAME" x="129.286" y="112.141" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="128.3064375" y="109.5248" size="1.778" layer="96" font="vector"/>
+<instance part="C3" gate="G$1" x="137.16" y="111.76" smashed="yes">
+<attribute name="NAME" x="131.826" y="112.141" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="130.8464375" y="109.5248" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="66.04" y="20.32" smashed="yes">
 <attribute name="NAME" x="67.564" y="23.241" size="1.778" layer="95" font="vector"/>
@@ -27924,9 +27902,6 @@ LED</text>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="35.56" y="40.64" smashed="yes">
 <attribute name="VALUE" x="35.56" y="43.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY15" gate="G$1" x="134.62" y="124.46" smashed="yes">
-<attribute name="VALUE" x="134.62" y="127.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="236.22" y="43.18" smashed="yes"/>
 <instance part="TP3" gate="G$1" x="106.68" y="132.08" smashed="yes"/>
@@ -28148,9 +28123,16 @@ LED</text>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
-<wire x1="154.94" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="121.92" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="121.92" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VDDIN"/>
+<pinref part="U3" gate="G$1" pin="VDDANA"/>
+<wire x1="154.94" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<junction x="137.16" y="121.92"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="116.84" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<junction x="137.16" y="119.38"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -28264,18 +28246,18 @@ LED</text>
 <junction x="142.24" y="76.2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="76.2" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="76.2" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="81.28" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="78.74" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <junction x="147.32" y="78.74"/>
 <junction x="147.32" y="76.2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="134.62" y1="73.66" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-<junction x="134.62" y="76.2"/>
+<wire x1="137.16" y1="73.66" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="137.16" y="76.2"/>
 <pinref part="U3" gate="G$1" pin="GNDANA"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="PAD"/>
@@ -28449,17 +28431,6 @@ LED</text>
 <pinref part="S1" gate="1" pin="S"/>
 <wire x1="22.86" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <junction x="22.86" y="25.4"/>
-</segment>
-</net>
-<net name="VDDA" class="0">
-<segment>
-<wire x1="154.94" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="119.38" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="G$1" pin="VDDA"/>
-<wire x1="134.62" y1="119.38" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<junction x="134.62" y="119.38"/>
-<pinref part="U3" gate="G$1" pin="VDDANA"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
