@@ -154,7 +154,7 @@
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="8.4328" y="0.2794" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
-<text x="36.957" y="-9.652" size="1.778" layer="51" font="vector" align="bottom-right">Michelle Shorter</text>
+<text x="35.687" y="-9.652" size="1.778" layer="51" font="vector" align="bottom-right">Michelle Shorter</text>
 <text x="1.27" y="-12.446" size="1.778" layer="51" font="vector">Revised By: Elias Santistevan</text>
 <polygon width="0.254" layer="22">
 <vertex x="23.876" y="12.2682"/>

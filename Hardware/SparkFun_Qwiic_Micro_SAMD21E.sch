@@ -27754,7 +27754,7 @@ Sercom 5 - Serial</text>
 <text x="210.82" y="180.34" size="2.54" layer="94" font="vector">Reset Button</text>
 <wire x1="144.78" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="127" x2="48.26" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
-<text x="53.34" y="121.92" size="2.54" layer="94" font="vector">FLASH</text>
+<text x="53.34" y="121.92" size="2.54" layer="94" font="vector">Flash</text>
 <text x="160.02" y="127" size="2.54" layer="97" font="vector">U3</text>
 <text x="68.58" y="43.18" size="1.27" layer="97" font="vector">Cut Jumper 
 to disconnect
