@@ -76,7 +76,7 @@ extern "C"
  */
 // #define digitalPinToTimer(P)
 
-// LEDs - only the APAs are used on this board, left here for consistency and to not break things
+// RX and TX LEDs are not present on the board. 
 #define PIN_LED_13           (13u)
 #define PIN_LED_RXL          (25u)
 #define PIN_LED_TXL          (26u)
@@ -84,13 +84,11 @@ extern "C"
 #define PIN_LED2             PIN_LED_RXL
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
-#define INTERNAL_APA_DATA	 31
-#define INTERNAL_APA_CLK	 32
 
 /*
  * Analog pins
  */
-#define PIN_A0               (22u)
+#define PIN_A0               (24u)
 #define PIN_A1               (PIN_A0+1)
 #define PIN_A2               (PIN_A0+2)
 #define PIN_A3               (PIN_A0+3)
@@ -112,8 +110,8 @@ static const uint8_t DAC0 = PIN_DAC0;
  */
 
 // Serial
-#define PIN_SERIAL_RX       (15ul)
-#define PIN_SERIAL_TX       (14ul)
+#define PIN_SERIAL_TX       (16ul)
+#define PIN_SERIAL_RX       (17ul)
 #define PAD_SERIAL_TX       (UART_TX_PAD_0)
 #define PAD_SERIAL_RX       (SERCOM_RX_PAD_1)
 
@@ -122,10 +120,10 @@ static const uint8_t DAC0 = PIN_DAC0;
  */
 #define SPI_INTERFACES_COUNT 2
 
-#define PIN_SPI_SS			 (6u)
-#define PIN_SPI_MISO         (11u)
-#define PIN_SPI_MOSI         (10u)
-#define PIN_SPI_SCK          (9u)
+#define PIN_SPI_MOSI         (2u)
+#define PIN_SPI_MISO         (3u)
+#define PIN_SPI_SCK          (4u)
+#define PIN_SPI_SS			     (5u)
 #define PERIPH_SPI           sercom0
 #define PAD_SPI_TX           SPI_PAD_2_SCK_3
 #define PAD_SPI_RX           SERCOM_RX_PAD_1
@@ -135,10 +133,10 @@ static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
 
-#define PIN_SPI1_SS		      (19u)
-#define PIN_SPI1_MISO         (18u)
-#define PIN_SPI1_MOSI         (16u)
-#define PIN_SPI1_SCK          (17u)
+#define PIN_SPI1_MOSI         (18u)
+#define PIN_SPI1_SCK          (19u)
+#define PIN_SPI1_MISO         (20u)
+#define PIN_SPI1_SS		        (21u)
 #define PERIPH_SPI1           sercom1
 #define PAD_SPI1_TX           SPI_PAD_0_SCK_1
 #define PAD_SPI1_RX           SERCOM_RX_PAD_2
@@ -154,29 +152,20 @@ static const uint8_t FLASH_SCK  = PIN_SPI1_SCK ;
 //I2C/Qwiic Interface
 #define WIRE_INTERFACES_COUNT 1
 
-#define PIN_WIRE_SDA         (7u)
-#define PIN_WIRE_SCL         (8u)
+#define PIN_WIRE_SDA         (9u)
+#define PIN_WIRE_SCL         (10u)
 #define PERIPH_WIRE          sercom2
 #define WIRE_IT_HANDLER      SERCOM2_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
 
-//APA102 Interface
-//#define PIN_WIRE1_SDA       (31u)
-//#define PIN_WIRE1_SCL       (32u)
-//#define PERIPH_WIRE1        sercom1
-//#define WIRE1_IT_HANDLER    SERCOM1_Handler
-
-//static const uint8_t APA_DATA = PIN_WIRE1_SDA ;
-//static const uint8_t APA_CLK = PIN_WIRE1_SCL;
-
 /*
  * USB
  */
-#define PIN_USB_HOST_ENABLE (28ul)
-#define PIN_USB_DM          (29ul)
-#define PIN_USB_DP          (30ul)
+#define PIN_USB_HOST_ENABLE (30ul)
+#define PIN_USB_DM          (31ul)
+#define PIN_USB_DP          (32ul)
 
 
 #ifdef __cplusplus

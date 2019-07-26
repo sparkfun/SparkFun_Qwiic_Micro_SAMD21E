@@ -26745,14 +26745,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="PA17/INT1/1:1/3:1" x="33.02" y="-7.62" length="middle" rot="R180"/>
 <pin name="PA18/INT2/1:2/3:2" x="33.02" y="-5.08" length="middle" rot="R180"/>
 <pin name="PA19INT3/1:3/3:3/I2S" x="33.02" y="-2.54" length="middle" rot="R180"/>
-<pin name="PA22/INT6/3:0_D14" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="PA23/INT7/3:1_D15" x="33.02" y="2.54" length="middle" rot="R180"/>
-<pin name="PA24/D-_D10" x="33.02" y="15.24" length="middle" rot="R180"/>
-<pin name="PA25/D+_D11" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="PA22/INT6/3:0_D16" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="PA23/INT7/3:1_D17" x="33.02" y="2.54" length="middle" rot="R180"/>
+<pin name="PA24/D-_D31" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="PA25/D+_D32" x="33.02" y="17.78" length="middle" rot="R180"/>
 <pin name="PA27/INT15" x="33.02" y="5.08" length="middle" rot="R180"/>
-<pin name="PA28/USBHOST/INT8_D9" x="33.02" y="7.62" length="middle" rot="R180"/>
-<pin name="PA30/INT10/1:2/SWCLK_D19" x="33.02" y="20.32" length="middle" rot="R180"/>
-<pin name="PA31/INT11/1:3/SWDIO_D20" x="33.02" y="22.86" length="middle" rot="R180"/>
+<pin name="PA28/USBHOST/INT8_D30" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="PA30/INT10/1:2/SWCLK_D22" x="33.02" y="20.32" length="middle" rot="R180"/>
+<pin name="PA31/INT11/1:3/SWDIO_D23" x="33.02" y="22.86" length="middle" rot="R180"/>
 <wire x1="-27.94" y1="-25.4" x2="-27.94" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="25.4" x2="27.94" y2="25.4" width="0.254" layer="94"/>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="-25.4" width="0.254" layer="94"/>
@@ -26794,14 +26794,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PA17/INT1/1:1/3:1" pad="PA17"/>
 <connect gate="G$1" pin="PA18/INT2/1:2/3:2" pad="PA18"/>
 <connect gate="G$1" pin="PA19INT3/1:3/3:3/I2S" pad="PA19"/>
-<connect gate="G$1" pin="PA22/INT6/3:0_D14" pad="PA22"/>
-<connect gate="G$1" pin="PA23/INT7/3:1_D15" pad="PA23"/>
-<connect gate="G$1" pin="PA24/D-_D10" pad="PA24"/>
-<connect gate="G$1" pin="PA25/D+_D11" pad="PA25"/>
+<connect gate="G$1" pin="PA22/INT6/3:0_D16" pad="PA22"/>
+<connect gate="G$1" pin="PA23/INT7/3:1_D17" pad="PA23"/>
+<connect gate="G$1" pin="PA24/D-_D31" pad="PA24"/>
+<connect gate="G$1" pin="PA25/D+_D32" pad="PA25"/>
 <connect gate="G$1" pin="PA27/INT15" pad="PA27"/>
-<connect gate="G$1" pin="PA28/USBHOST/INT8_D9" pad="PA28"/>
-<connect gate="G$1" pin="PA30/INT10/1:2/SWCLK_D19" pad="PA30"/>
-<connect gate="G$1" pin="PA31/INT11/1:3/SWDIO_D20" pad="PA31"/>
+<connect gate="G$1" pin="PA28/USBHOST/INT8_D30" pad="PA28"/>
+<connect gate="G$1" pin="PA30/INT10/1:2/SWCLK_D22" pad="PA30"/>
+<connect gate="G$1" pin="PA31/INT11/1:3/SWDIO_D23" pad="PA31"/>
 <connect gate="G$1" pin="PAD" pad="PAD"/>
 <connect gate="G$1" pin="VDDANA" pad="VDD"/>
 <connect gate="G$1" pin="VDDCORE" pad="VDDCORE"/>
@@ -27184,7 +27184,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="223.52" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA31/INT11/1:3/SWDIO_D20"/>
+<pinref part="U3" gate="G$1" pin="PA31/INT11/1:3/SWDIO_D23"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="4"/>
@@ -27201,7 +27201,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="223.52" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA30/INT10/1:2/SWCLK_D19"/>
+<pinref part="U3" gate="G$1" pin="PA30/INT10/1:2/SWCLK_D22"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="3"/>
@@ -27213,7 +27213,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <label x="223.52" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA25/D+_D11"/>
+<pinref part="U3" gate="G$1" pin="PA25/D+_D32"/>
 </segment>
 <segment>
 <pinref part="J5" gate="J1" pin="D+"/>
@@ -27225,7 +27225,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="223.52" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA24/D-_D10"/>
+<pinref part="U3" gate="G$1" pin="PA24/D-_D31"/>
 </segment>
 <segment>
 <pinref part="J5" gate="J1" pin="D-"/>
@@ -27276,7 +27276,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <label x="223.52" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA23/INT7/3:1_D15"/>
+<pinref part="U3" gate="G$1" pin="PA23/INT7/3:1_D17"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -27288,7 +27288,7 @@ LED</text>
 <segment>
 <wire x1="220.98" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
 <label x="223.52" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="PA22/INT6/3:0_D14"/>
+<pinref part="U3" gate="G$1" pin="PA22/INT6/3:0_D16"/>
 </segment>
 </net>
 <net name="D7" class="0">
