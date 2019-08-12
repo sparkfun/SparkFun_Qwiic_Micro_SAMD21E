@@ -26647,7 +26647,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="QFN32">
+<package name="QFN-32_SAMD">
 <description>&lt;h3&gt;SAMD21E QFN32&lt;/h3&gt;
 
 &lt;p&gt;Physical Characteristics&lt;/p&gt;
@@ -26717,7 +26717,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="SAMD21E">
+<symbol name="SAMD21E18A-U">
 <description>&lt;h3&gt;SAMD21E&lt;/h3&gt;
 
 &lt;p&gt;The SAM D21E is a low-power microcontroller using the 32-bit ARM® Cortex®-M0+ processor,with 32-pins with up to 256KB Flash and 32KB of SRAM. The SAM D21E operates at a maximum frequency of 48MHz and reach 2.46 CoreMark®/MHz.&lt;/p&gt;</description>
@@ -26763,15 +26763,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAMD21E" prefix="U">
+<deviceset name="ATSAMD21E18A-U" prefix="U">
 <description>&lt;h3&gt;SAM D21E 32-Pin QFN&lt;/h3&gt;
 
 &lt;p&gt;The SAMD21E is built around the 32-bit ARM Cortex-M0+ processor with up to 256KB of Flash and 32KB of SRAM. It operates at a maximum frequency of 48MHz.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SAMD21E" x="-12.7" y="-22.86"/>
+<gate name="G$1" symbol="SAMD21E18A-U" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
-<device name="" package="QFN32">
+<device name="" package="QFN-32_SAMD">
 <connects>
 <connect gate="G$1" pin="D0_PA08/NMI/0:0/2:0/I2S" pad="PA08"/>
 <connect gate="G$1" pin="D1_PA02/INT2/DAC" pad="PA02"/>
@@ -26885,7 +26885,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="SAMD21E" device=""/>
+<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="ATSAMD21E18A-U" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="LED"/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>

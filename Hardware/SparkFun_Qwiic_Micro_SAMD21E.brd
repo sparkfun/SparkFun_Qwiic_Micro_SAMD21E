@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -3569,7 +3569,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="QFN32">
+<package name="QFN-32_SAMD">
 <description>&lt;h3&gt;SAMD21E QFN32&lt;/h3&gt;
 
 &lt;p&gt;Physical Characteristics&lt;/p&gt;
@@ -6736,7 +6736,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$49" library="buzzard_labels" package="SCL8" value="" x="22.3774" y="12.5222" smashed="yes" rot="R90"/>
 <element name="U$50" library="buzzard_labels" package="SDA9" value="" x="22.3774" y="9.9314" smashed="yes" rot="R90"/>
 <element name="U$21" library="RESET" package="RESET0" value="" x="14.224" y="15.494" smashed="yes"/>
-<element name="U3" library="SparkFun-IC-Microcontroller" package="QFN32" value="SAMD21E" x="7.62" y="11.43" smashed="yes" rot="R90">
+<element name="U3" library="SparkFun-IC-Microcontroller" package="QFN-32_SAMD" value="ATSAMD21E18A-U" x="7.62" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.6" y="8.94" size="1" layer="25" rot="R90"/>
 <attribute name="PROD_ID" value="IC-14428" x="7.62" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.624" y="8.928" size="1" layer="27" rot="R90"/>
