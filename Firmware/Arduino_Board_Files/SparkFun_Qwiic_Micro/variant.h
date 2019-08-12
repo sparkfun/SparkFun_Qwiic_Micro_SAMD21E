@@ -120,15 +120,15 @@ static const uint8_t DAC0 = PIN_DAC0;
  */
 #define SPI_INTERFACES_COUNT 2
 
-#define PIN_SPI_MOSI         (2u)
-#define PIN_SPI_MISO         (3u)
-#define PIN_SPI_SCK          (4u)
-#define PIN_SPI_SS			     (5u)
+#define PIN_SPI_MOSI         (14u)
+#define PIN_SPI_MISO         (15u)
+#define PIN_SPI_SCK          (11u)
+#define PIN_SPI_SS			     (7u)
 #define PERIPH_SPI           sercom0
 #define PAD_SPI_TX           SPI_PAD_2_SCK_3
 #define PAD_SPI_RX           SERCOM_RX_PAD_1
 
-static const uint8_t SS	  = PIN_SPI_SS ;	// SERCOM0 last PAD is present on D6 but HW SS isn't used. Set here only for reference.
+static const uint8_t SS	  = PIN_SPI_SS ;
 static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
