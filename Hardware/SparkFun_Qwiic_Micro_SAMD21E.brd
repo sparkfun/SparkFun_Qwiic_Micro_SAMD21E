@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -154,13 +154,15 @@
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="7.9248" y="0.2794" size="0.8128" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
-<text x="35.687" y="-9.652" size="1.778" layer="51" font="vector" align="bottom-right">Michelle Shorter</text>
-<text x="1.27" y="-12.446" size="1.778" layer="51" font="vector">Revised By: Elias Santistevan</text>
-<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="29.21" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="25.4" y1="25.4" x2="25.4" y2="0" x3="30.48" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<text x="3.81" y="34.29" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<text x="32.131" y="-20.066" size="1.778" layer="51" font="vector" align="bottom-right">Michelle Shorter</text>
+<text x="-2.286" y="-22.86" size="1.778" layer="51" font="vector">Revised By: Elias Santistevan</text>
 <circle x="18.034" y="11.176" radius="0.643075" width="0.3048" layer="21"/>
 <circle x="18.034" y="11.176" radius="0.6604" width="0.3048" layer="22"/>
+<dimension x1="2.54" y1="2.54" x2="22.86" y2="2.54" x3="12.7" y3="-3.048" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="0" y2="0" x3="12.7" y3="-6.35" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="22.86" y1="22.86" x2="22.86" y2="2.54" x3="28.702" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="25.4" y1="25.4" x2="25.4" y2="0" x3="33.274" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="4.064" y="-9.398" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -6594,9 +6596,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="22.733" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="26.162" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-10.16" y="-9.652" smashed="yes">
-<attribute name="DESIGNER" value="" x="-10.16" y="-9.652" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="-10.16" y="-9.652" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-13.716" y="-20.066" smashed="yes">
+<attribute name="DESIGNER" value="" x="-13.716" y="-20.066" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="-13.716" y="-20.066" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="16.256" y="18.034" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="12.446" y="16.764" smashed="yes"/>
@@ -6665,10 +6667,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="13.208" y="7.62" smashed="yes" rot="MR0"/>
 <element name="TP1" library="SparkFun-Connectors" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="16.8402" y="20.4978" smashed="yes"/>
-<element name="J2" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="24.13" y="6.604" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.733" y="5.334" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="PROD_ID" value="CONN-09696" x="24.13" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="26.162" y="5.334" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="J2" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="24.13" y="6.35" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.733" y="5.08" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PROD_ID" value="CONN-09696" x="24.13" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="26.162" y="5.08" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="0.762" smashed="yes"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="0.762" smashed="yes" rot="MR0"/>
@@ -6943,7 +6945,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="17.4498" y1="9.7028" x2="22.1107" y2="9.7028" width="0.2032" layer="16"/>
 <contactref element="J2" pad="4"/>
 <wire x1="22.5679" y1="12.4079" x2="24.13" y2="13.97" width="0.2032" layer="16"/>
-<wire x1="24.13" y1="13.97" x2="24.13" y2="14.224" width="0.2032" layer="16"/>
 <contactref element="U3" pad="PA09"/>
 <wire x1="12.1264" y1="11.14" x2="10.01" y2="11.14" width="0.2032" layer="1"/>
 <wire x1="14.1097" y1="5.1703" x2="14.1097" y2="7.8105" width="0.2032" layer="1"/>
@@ -6960,7 +6961,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.2758" y1="9.3218" x2="24.13" y2="11.176" width="0.2032" layer="16"/>
 <wire x1="13.2" y1="9.5076" x2="12.0676" y2="10.64" width="0.2032" layer="1"/>
 <contactref element="J2" pad="3"/>
-<wire x1="24.13" y1="11.684" x2="24.13" y2="11.176" width="0.2032" layer="16"/>
+<wire x1="24.13" y1="11.43" x2="24.13" y2="11.176" width="0.2032" layer="16"/>
 <wire x1="13.2" y1="5.08" x2="13.2" y2="7.112" width="0.2032" layer="1"/>
 <contactref element="U3" pad="PA08"/>
 <wire x1="12.0676" y1="10.64" x2="10.01" y2="10.64" width="0.2032" layer="1"/>
@@ -7023,8 +7024,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="4.6176" y1="10.6934" x2="4.671" y2="10.64" width="0.254" layer="1"/>
 <wire x1="4.6176" y1="10.6934" x2="4.318" y2="10.6934" width="0.254" layer="1"/>
 <contactref element="J2" pad="2"/>
-<wire x1="23.1013" y1="8.6233" x2="23.622" y2="9.144" width="0.254" layer="16"/>
-<wire x1="23.622" y1="9.144" x2="24.13" y2="9.144" width="0.254" layer="16"/>
+<wire x1="23.1013" y1="8.6233" x2="23.368" y2="8.89" width="0.254" layer="16"/>
+<wire x1="23.368" y1="8.89" x2="24.13" y2="8.89" width="0.254" layer="16"/>
 <contactref element="U2" pad="3"/>
 <contactref element="R2" pad="2"/>
 <wire x1="20.6248" y1="12.6492" x2="21.6154" y2="11.6586" width="0.254" layer="1"/>
