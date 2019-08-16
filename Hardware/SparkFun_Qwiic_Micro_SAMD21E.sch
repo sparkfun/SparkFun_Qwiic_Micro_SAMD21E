@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26918,8 +26918,7 @@ Sercom 4 - only 2 ports on crystal pins
 <text x="5.08" y="121.92" size="2.54" layer="94" font="vector">LEDs</text>
 <text x="5.08" y="63.5" size="2.54" layer="94" font="vector">Power</text>
 <text x="127" y="180.34" size="2.54" layer="94" font="vector">Microcontroller - SAMD21E</text>
-<text x="78.74" y="104.14" size="2.54" layer="97" font="vector">DNP</text>
-<text x="96.52" y="55.88" size="2.54" layer="97" font="vector">DNP</text>
+<text x="78.74" y="109.22" size="1.778" layer="97" font="vector">Optional Flash SMD</text>
 <text x="236.22" y="10.16" size="2.54" layer="94" font="vector">V10</text>
 <text x="164.592" y="14.224" size="2.54" layer="94" font="vector">Michelle Shorter</text>
 <text x="145.796" y="8.89" size="2.54" layer="94" font="vector">Revised By: Elias Santistevan</text>
@@ -26944,6 +26943,10 @@ LED</text>
 <text x="134.874" y="158.496" size="1.778" layer="97" font="vector">Notes on SERCOM Ports</text>
 <text x="39.37" y="81.788" size="1.778" layer="97" font="vector" rot="R90">Stat</text>
 <text x="23.876" y="81.534" size="1.778" layer="97" font="vector" rot="R90">Power</text>
+<text x="38.1" y="35.56" size="1.27" layer="97" font="vector">VCC Range: 2.5V - 6.0V</text>
+<text x="172.72" y="127" size="1.778" layer="97" font="vector">VCC Range: 1.62V - 3.63V</text>
+<text x="76.2" y="78.74" size="1.778" layer="97" font="vector">VCC Range: 2.7V - 3.63V</text>
+<text x="88.9" y="63.5" size="1.778" layer="97" font="vector">Optional Lipo Connector</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="22.86" y="162.56" smashed="yes">
@@ -26956,7 +26959,7 @@ LED</text>
 </instance>
 <instance part="J3" gate="J1" x="55.88" y="157.48" smashed="yes">
 <attribute name="VALUE" x="50.8" y="147.574" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="50.8" y="168.148" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="50.8" y="170.688" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J7" gate="G$1" x="104.14" y="165.1" smashed="yes">
 <attribute name="VALUE" x="101.6" y="160.274" size="1.778" layer="96" font="vector"/>
