@@ -26933,7 +26933,7 @@ Sercom 4 - only 2 ports on crystal pins
 <wire x1="48.26" y1="127" x2="48.26" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
 <text x="53.34" y="121.92" size="2.54" layer="94" font="vector">Flash</text>
 <text x="160.02" y="127" size="2.54" layer="97" font="vector">U3</text>
-<text x="68.58" y="43.18" size="1.27" layer="97" font="vector">Cut Jumper 
+<text x="2.54" y="106.68" size="1.27" layer="97" font="vector">Cut Jumper 
 to disconnect
 LED</text>
 <wire x1="134.62" y1="157.48" x2="185.42" y2="157.48" width="0.2032" layer="97" style="dashdot"/>
