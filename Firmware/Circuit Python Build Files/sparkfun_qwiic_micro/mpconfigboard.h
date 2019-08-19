@@ -28,6 +28,18 @@
 #define DEFAULT_SPI_BUS_MOSI (&pin_PA06)
 #define DEFAULT_SPI_BUS_MISO (&pin_PA05)
 
+//UART
+#define DEFAULT_UART_BUS_RX  (&pin_PA23)
+#define DEFAULT_UART_BUS_TX  (&pin_PA22)
+
 // USB is always used internally so skip the pin objects for it.
 #define IGNORE_PIN_PA24     1
 #define IGNORE_PIN_PA25     1
+
+// Unused
+#define IGNORE_PIN_PA03     1
+#define IGNORE_PIN_PA11     1
+#define IGNORE_PIN_PA14     1
+#define IGNORE_PIN_PA15     1
+#define IGNORE_PIN_PA27     1
+#define IGNORE_PIN_PA28     1

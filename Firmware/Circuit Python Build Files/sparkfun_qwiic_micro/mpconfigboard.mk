@@ -1,6 +1,6 @@
 LD_FILE = boards/samd21x18-bootloader-external-flash.ld
 USB_VID = 0x1B4F
-USB_PID = 0x0019
+USB_PID = 0x8D24
 USB_PRODUCT = "SparkFun Qwiic Micro"
 USB_MANUFACTURER = "SparkFun Electronics"
 
@@ -13,3 +13,4 @@ EXTERNAL_FLASH_DEVICES = "W25Q32FV"
 LONGINT_IMPL = MPZ
 
 CIRCUITPY_SMALL_BUILD = 1
+SUPEROPT_GC = 0
