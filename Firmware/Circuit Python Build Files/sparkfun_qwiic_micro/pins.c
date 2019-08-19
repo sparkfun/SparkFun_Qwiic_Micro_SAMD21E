@@ -28,12 +28,6 @@ STATIC const mp_rom_map_elem_t board_global_dict_table[] = {
     { MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA05) },
     { MP_ROM_QSTR(MP_QSTR_SPI), MP_ROM_PTR(&board_spi_obj) },
 
-    // FLASH SPI
-    { MP_ROM_QSTR(MP_FLASH_SCK), MP_ROM_PTR(&pin_PA17) },
-    { MP_ROM_QSTR(MP_FLASH_MOSI), MP_ROM_PTR(&pin_PA16) },
-    { MP_ROM_QSTR(MP_FLASH_MISO), MP_ROM_PTR(&pin_PA18) },
-    { MP_ROM_QSTR(MP_FLASH_CS), MP_ROM_PTR(&pin_PA19) },
-    
     // UART 
     { MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PA22) },
     { MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PA23) },
