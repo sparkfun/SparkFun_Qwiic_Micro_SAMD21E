@@ -15,7 +15,7 @@
    viewBox="0 0 279.4 215.9"
    version="1.1"
    id="svg2260"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="QwiicMicroFinal.svg">
   <defs
      id="defs2254" />
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="8.642328"
-     inkscape:cy="505.24039"
+     inkscape:zoom="0.7"
+     inkscape:cx="514.11127"
+     inkscape:cy="472.13532"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
      units="in"
-     inkscape:window-width="1858"
-     inkscape:window-height="1057"
-     inkscape:window-x="54"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -63,7 +63,7 @@
        height="49.613178"
        width="65.280495" />
     <rect
-       style="opacity:0.4;fill:#941e0e;fill-opacity:0.55072463;stroke:none;stroke-width:0.35500294;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.4;fill:#941e0e;fill-opacity:0.55072464;stroke:none;stroke-width:0.35500294;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3757"
        width="70"
        height="50"
@@ -99,7 +99,7 @@
          id="tspan3780"
          x="4.2763133"
          y="14.913315"
-         style="stroke-width:0.26458332">Qwiic Micro - SamD21E</tspan></text>
+         style="stroke-width:0.26458332;font-size:11.28888889px">Qwiic Micro - SAMD21E (DEV-15423)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -121,15 +121,17 @@
          id="tspan3788"
          x="74.674438"
          y="170.83006"
-         style="stroke-width:0.26458332">SamD21E</tspan></text>
+         style="stroke-width:0.26458332">SAMD21E</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="145.51527"
        y="170.4418"
        id="text3794"><tspan
          sodipodi:role="line"
-         id="tspan1093">LEDs/Misc Pins</tspan></text>
+         id="tspan1093"
+         x="145.51527"
+         y="170.4418">LEDs/Misc Pins</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -162,28 +164,46 @@
          y="199.72906" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="78.844521"
        y="177.94772"
        id="text3814"><tspan
          sodipodi:role="line"
-         id="tspan4061">ARM Cortex-M0+ @48MHz</tspan><tspan
+         id="tspan4061"
+         x="78.844521"
+         y="177.94772">ARM Cortex-M0+ @48MHz</tspan><tspan
          sodipodi:role="line"
-         id="tspan4063">VCC: 1.62V-3.63V</tspan><tspan
+         id="tspan4063"
+         x="78.844521"
+         y="182.35745">VCC: 1.62V-3.63V</tspan><tspan
          sodipodi:role="line"
-         id="tspan4065">256KB Flash/32KB SRAM</tspan><tspan
+         id="tspan4065"
+         x="78.844521"
+         y="186.76717">256KB Flash/32KB SRAM</tspan><tspan
          sodipodi:role="line"
-         id="tspan4067">(plus 4Mb SPI Flash chip)</tspan><tspan
+         id="tspan4067"
+         x="78.844521"
+         y="191.1769">(plus 4Mb SPI Flash chip)</tspan><tspan
          sodipodi:role="line"
-         id="tspan4069">4 Sercom ports</tspan><tspan
+         id="tspan4069"
+         x="78.844521"
+         y="195.58661">4 Sercom ports</tspan><tspan
          sodipodi:role="line"
-         id="tspan4071">12-bit ADC</tspan><tspan
+         id="tspan4071"
+         x="78.844521"
+         y="199.99634">12-bit ADC</tspan><tspan
          sodipodi:role="line"
-         id="tspan4073">10-bit DAC</tspan><tspan
+         id="tspan4073"
+         x="78.844521"
+         y="204.40605">10-bit DAC</tspan><tspan
          sodipodi:role="line"
-         id="tspan4075" /><tspan
+         id="tspan4075"
+         x="78.844521"
+         y="208.81578" /><tspan
          sodipodi:role="line"
-         id="tspan4077" /></text>
+         id="tspan4077"
+         x="78.844521"
+         y="213.22549" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
