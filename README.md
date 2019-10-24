@@ -1,12 +1,14 @@
 SparkFun Qwiic Micro - SAMD21E
 ========================================
 
-![SAMD21 Qwiic Micro]()
+[![SAMD21 Qwiic Micro](https://cdn.sparkfun.com//assets/parts/1/3/9/8/0/15423-SparkFun_Qwiic_Micro_-_SAMD21-01b.jpg)](https://www.sparkfun.com/products/15423)
 
 
 [*SparkFun Qwiic Micro - SAMD21E (DEV-15423)*](https://www.sparkfun.com/products/15423)
 
-The SparkFun Qwiic Micro - SAMD21E is one suare inch of development board. 
+Looking for a super small microcontroller to use with the [Qwiic eco-system](https://www.sparkfun.com/qwiic)? The SparkFun Qwiic Micro is molded to fit our standard 1"x1" Qwiic standard size which makes it one of our smallest micro-controller offerings to date. At it's core is the powerful and versatile ATSAMD21E18, which is an ARM Cortex M0+, 32-bit microcontroller, with 256KB of flash memory that can run at up to 48MHz! It has 12 digital pins which include 5 analog pins, SPI, I²C, and an additional UART data bus as well as a Qwiic connector for easy integration into the Qwiic ecosystem and I²C prototyping.
+
+On the underside of the Qwiic Micro, we've left open pads for a LiPo Battery connector that you can add yourself, if you wish you can make the micro-controller portable. We've also provided pads on the underside for a flash memory chip to maximize the board's memory capacity. The SparkFun Qwiic Micro comes programmed with a UF2 Bootloader making it easy to program with easy driver installation! If you need a tiny but mighty micro-controller for you next project check out the SparkFun Qwiic Micro.
 
 Repository Contents
 -------------------
@@ -18,8 +20,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide]()** - Basic hookup guide for the SparkFun Ambient Light Sensor
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide)** - Basic hookup guide for the SparkFun Ambient Light Sensor
 * **[Qwiic Ecosystem](https://www.sparkfun.com/qwiic)** - Qwiic enabled for fast prototyping!
 
 License Information
