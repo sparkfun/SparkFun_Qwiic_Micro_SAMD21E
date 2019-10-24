@@ -20,7 +20,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide)** - Basic hookup guide for the SparkFun Ambient Light Sensor
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide)** - Basic hookup guide for the Qwiic Micro
 * **[Qwiic Ecosystem](https://www.sparkfun.com/qwiic)** - Qwiic enabled for fast prototyping!
 
 License Information
