@@ -21,6 +21,7 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide)** - Basic hookup guide for the Qwiic Micro
+* **[Graphical Datasheet](https://github.com/sparkfun/Graphical_Datasheets)** - Graphical Datasheet for Qwiic Micro can be found in this repo
 * **[Qwiic Ecosystem](https://www.sparkfun.com/qwiic)** - Qwiic enabled for fast prototyping!
 
 License Information
